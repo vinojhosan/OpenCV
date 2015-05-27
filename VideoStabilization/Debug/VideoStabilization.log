@@ -1,0 +1,21 @@
+﻿Build started 5/27/2015 11:33:51 PM.
+     1>Project "F:\openCV\VideoStabilization\VideoStabilization.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\VideoStabilization.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\openCV2.4.5\OpenCV\opencv\build\include /IC:\openCV2.4.5\OpenCV\opencv\build\include\opencv2 /IC:\openCV2.4.5\OpenCV\opencv\build\include\opencv /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt maintest.cpp
+         maintest.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\openCV\VideoStabilization\Debug\VideoStabilization.exe" /NOLOGO /LIBPATH:C:\openCV2.4.5\OpenCV\opencv\build\x86\vc10\lib opencv_core245d.lib opencv_imgproc245d.lib opencv_highgui245d.lib opencv_video245d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VideoStabilization.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\openCV\VideoStabilization\Debug\VideoStabilization.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\openCV\VideoStabilization\Debug\VideoStabilization.lib" /MACHINE:X86 Debug\maintest.obj
+         LINK : F:\openCV\VideoStabilization\Debug\VideoStabilization.exe not found or not built by the last incremental link; performing full link
+         VideoStabilization.vcxproj -> F:\openCV\VideoStabilization\Debug\VideoStabilization.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\openCV\VideoStabilization\Debug\VideoStabilization.exe;#1" /manifest Debug\VideoStabilization.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\VideoStabilization.unsuccessfulbuild".
+         Touching "Debug\VideoStabilization.lastbuildstate".
+     1>Done Building Project "F:\openCV\VideoStabilization\VideoStabilization.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.74
